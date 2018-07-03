@@ -1,0 +1,718 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		032AA86820EBA7C400AEC297 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 032AA86720EBA7C400AEC297 /* ViewController.m */; };
+		032AA86D20EBA7C700AEC297 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 032AA86C20EBA7C700AEC297 /* Assets.xcassets */; };
+		032AA87020EBA7C700AEC297 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 032AA86E20EBA7C700AEC297 /* LaunchScreen.storyboard */; };
+		032AA87320EBA7C700AEC297 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 032AA87220EBA7C700AEC297 /* main.m */; };
+		032AA87D20EBA7C800AEC297 /* MyOCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 032AA87C20EBA7C800AEC297 /* MyOCTests.m */; };
+		032AA88820EBA7C800AEC297 /* MyOCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 032AA88720EBA7C800AEC297 /* MyOCUITests.m */; };
+		032AA8A020EBA7FF00AEC297 /* OCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 032AA89820EBA7FF00AEC297 /* OCViewController.m */; };
+		032AA8A120EBA7FF00AEC297 /* OCNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 032AA89B20EBA7FF00AEC297 /* OCNavigationController.m */; };
+		032AA8A220EBA7FF00AEC297 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 032AA89C20EBA7FF00AEC297 /* AppDelegate.m */; };
+		032AA8A320EBA7FF00AEC297 /* OCTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 032AA89D20EBA7FF00AEC297 /* OCTableViewController.m */; };
+		032AA8A420EBA7FF00AEC297 /* OCTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 032AA89E20EBA7FF00AEC297 /* OCTabBarController.m */; };
+		032AA8BB20EBA81000AEC297 /* TabOneNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 032AA8A620EBA81000AEC297 /* TabOneNavigationController.m */; };
+		032AA8BC20EBA81000AEC297 /* TabOneTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 032AA8A720EBA81000AEC297 /* TabOneTableViewController.xib */; };
+		032AA8BD20EBA81000AEC297 /* TabOneTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 032AA8A820EBA81000AEC297 /* TabOneTableViewController.m */; };
+		032AA8BE20EBA81000AEC297 /* safari.png in Resources */ = {isa = PBXBuildFile; fileRef = 032AA8A920EBA81000AEC297 /* safari.png */; };
+		032AA8BF20EBA81000AEC297 /* TabOneNavigationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 032AA8AA20EBA81000AEC297 /* TabOneNavigationController.xib */; };
+		032AA8C020EBA81000AEC297 /* PageControlViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 032AA8AB20EBA81000AEC297 /* PageControlViewController.xib */; };
+		032AA8C120EBA81000AEC297 /* StatusBarThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 032AA8AE20EBA81000AEC297 /* StatusBarThreeViewController.m */; };
+		032AA8C220EBA81000AEC297 /* StatusBarTwoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 032AA8AF20EBA81000AEC297 /* StatusBarTwoViewController.xib */; };
+		032AA8C320EBA81000AEC297 /* StatusBarOneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 032AA8B120EBA81000AEC297 /* StatusBarOneViewController.xib */; };
+		032AA8C420EBA81000AEC297 /* StatusBarThreeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 032AA8B220EBA81000AEC297 /* StatusBarThreeViewController.xib */; };
+		032AA8C520EBA81000AEC297 /* StatusBarOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 032AA8B320EBA81000AEC297 /* StatusBarOneViewController.m */; };
+		032AA8C620EBA81000AEC297 /* StatusBarTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 032AA8B520EBA81000AEC297 /* StatusBarTwoViewController.m */; };
+		032AA8C720EBA81000AEC297 /* PageControlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 032AA8B620EBA81000AEC297 /* PageControlViewController.m */; };
+		032AA8C820EBA81000AEC297 /* cui.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 032AA8B720EBA81000AEC297 /* cui.jpg */; };
+		032AA8CC20EBA84800AEC297 /* UIView+Dimensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 032AA8CA20EBA84800AEC297 /* UIView+Dimensions.m */; };
+		032AA95020EBC86C00AEC297 /* OCPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 032AA94E20EBC86C00AEC297 /* OCPageControl.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		032AA87920EBA7C800AEC297 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 032AA85820EBA7C400AEC297 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 032AA85F20EBA7C400AEC297;
+			remoteInfo = MyOC;
+		};
+		032AA88420EBA7C800AEC297 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 032AA85820EBA7C400AEC297 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 032AA85F20EBA7C400AEC297;
+			remoteInfo = MyOC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		032AA86020EBA7C400AEC297 /* MyOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		032AA86620EBA7C400AEC297 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		032AA86720EBA7C400AEC297 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		032AA86C20EBA7C700AEC297 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		032AA86F20EBA7C700AEC297 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		032AA87120EBA7C700AEC297 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		032AA87220EBA7C700AEC297 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		032AA87820EBA7C800AEC297 /* MyOCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyOCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		032AA87C20EBA7C800AEC297 /* MyOCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyOCTests.m; sourceTree = "<group>"; };
+		032AA87E20EBA7C800AEC297 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		032AA88320EBA7C800AEC297 /* MyOCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyOCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		032AA88720EBA7C800AEC297 /* MyOCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyOCUITests.m; sourceTree = "<group>"; };
+		032AA88920EBA7C800AEC297 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		032AA89620EBA7FF00AEC297 /* OCNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCNavigationController.h; sourceTree = "<group>"; };
+		032AA89720EBA7FF00AEC297 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		032AA89820EBA7FF00AEC297 /* OCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCViewController.m; sourceTree = "<group>"; };
+		032AA89920EBA7FF00AEC297 /* OCTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCTabBarController.h; sourceTree = "<group>"; };
+		032AA89A20EBA7FF00AEC297 /* OCTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCTableViewController.h; sourceTree = "<group>"; };
+		032AA89B20EBA7FF00AEC297 /* OCNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCNavigationController.m; sourceTree = "<group>"; };
+		032AA89C20EBA7FF00AEC297 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		032AA89D20EBA7FF00AEC297 /* OCTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCTableViewController.m; sourceTree = "<group>"; };
+		032AA89E20EBA7FF00AEC297 /* OCTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCTabBarController.m; sourceTree = "<group>"; };
+		032AA89F20EBA7FF00AEC297 /* OCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCViewController.h; sourceTree = "<group>"; };
+		032AA8A620EBA81000AEC297 /* TabOneNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabOneNavigationController.m; sourceTree = "<group>"; };
+		032AA8A720EBA81000AEC297 /* TabOneTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabOneTableViewController.xib; sourceTree = "<group>"; };
+		032AA8A820EBA81000AEC297 /* TabOneTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabOneTableViewController.m; sourceTree = "<group>"; };
+		032AA8A920EBA81000AEC297 /* safari.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = safari.png; sourceTree = "<group>"; };
+		032AA8AA20EBA81000AEC297 /* TabOneNavigationController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabOneNavigationController.xib; sourceTree = "<group>"; };
+		032AA8AB20EBA81000AEC297 /* PageControlViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PageControlViewController.xib; sourceTree = "<group>"; };
+		032AA8AD20EBA81000AEC297 /* StatusBarOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusBarOneViewController.h; sourceTree = "<group>"; };
+		032AA8AE20EBA81000AEC297 /* StatusBarThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusBarThreeViewController.m; sourceTree = "<group>"; };
+		032AA8AF20EBA81000AEC297 /* StatusBarTwoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StatusBarTwoViewController.xib; sourceTree = "<group>"; };
+		032AA8B020EBA81000AEC297 /* StatusBarTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusBarTwoViewController.h; sourceTree = "<group>"; };
+		032AA8B120EBA81000AEC297 /* StatusBarOneViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StatusBarOneViewController.xib; sourceTree = "<group>"; };
+		032AA8B220EBA81000AEC297 /* StatusBarThreeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StatusBarThreeViewController.xib; sourceTree = "<group>"; };
+		032AA8B320EBA81000AEC297 /* StatusBarOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusBarOneViewController.m; sourceTree = "<group>"; };
+		032AA8B420EBA81000AEC297 /* StatusBarThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusBarThreeViewController.h; sourceTree = "<group>"; };
+		032AA8B520EBA81000AEC297 /* StatusBarTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusBarTwoViewController.m; sourceTree = "<group>"; };
+		032AA8B620EBA81000AEC297 /* PageControlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageControlViewController.m; sourceTree = "<group>"; };
+		032AA8B720EBA81000AEC297 /* cui.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cui.jpg; sourceTree = "<group>"; };
+		032AA8B820EBA81000AEC297 /* TabOneNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabOneNavigationController.h; sourceTree = "<group>"; };
+		032AA8B920EBA81000AEC297 /* TabOneTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabOneTableViewController.h; sourceTree = "<group>"; };
+		032AA8BA20EBA81000AEC297 /* PageControlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageControlViewController.h; sourceTree = "<group>"; };
+		032AA8CA20EBA84800AEC297 /* UIView+Dimensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Dimensions.m"; sourceTree = "<group>"; };
+		032AA8CB20EBA84800AEC297 /* UIView+Dimensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Dimensions.h"; sourceTree = "<group>"; };
+		032AA8CD20EBA91B00AEC297 /* MyOC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyOC-Prefix.pch"; sourceTree = "<group>"; };
+		032AA94E20EBC86C00AEC297 /* OCPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCPageControl.m; sourceTree = "<group>"; };
+		032AA94F20EBC86C00AEC297 /* OCPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCPageControl.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		032AA85D20EBA7C400AEC297 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		032AA87520EBA7C800AEC297 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		032AA88020EBA7C800AEC297 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		032AA85720EBA7C400AEC297 = {
+			isa = PBXGroup;
+			children = (
+				032AA86220EBA7C400AEC297 /* MyOC */,
+				032AA87B20EBA7C800AEC297 /* MyOCTests */,
+				032AA88620EBA7C800AEC297 /* MyOCUITests */,
+				032AA86120EBA7C400AEC297 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		032AA86120EBA7C400AEC297 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				032AA86020EBA7C400AEC297 /* MyOC.app */,
+				032AA87820EBA7C800AEC297 /* MyOCTests.xctest */,
+				032AA88320EBA7C800AEC297 /* MyOCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		032AA86220EBA7C400AEC297 /* MyOC */ = {
+			isa = PBXGroup;
+			children = (
+				032AA8C920EBA84700AEC297 /* lib */,
+				032AA89520EBA7FF00AEC297 /* AppDelegate */,
+				032AA86620EBA7C400AEC297 /* ViewController.h */,
+				032AA86720EBA7C400AEC297 /* ViewController.m */,
+				032AA8A520EBA81000AEC297 /* Controller */,
+				032AA86C20EBA7C700AEC297 /* Assets.xcassets */,
+				032AA8CE20EBAACA00AEC297 /* img */,
+				032AA86E20EBA7C700AEC297 /* LaunchScreen.storyboard */,
+				032AA8CD20EBA91B00AEC297 /* MyOC-Prefix.pch */,
+				032AA87120EBA7C700AEC297 /* Info.plist */,
+				032AA87220EBA7C700AEC297 /* main.m */,
+			);
+			path = MyOC;
+			sourceTree = "<group>";
+		};
+		032AA87B20EBA7C800AEC297 /* MyOCTests */ = {
+			isa = PBXGroup;
+			children = (
+				032AA87C20EBA7C800AEC297 /* MyOCTests.m */,
+				032AA87E20EBA7C800AEC297 /* Info.plist */,
+			);
+			path = MyOCTests;
+			sourceTree = "<group>";
+		};
+		032AA88620EBA7C800AEC297 /* MyOCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				032AA88720EBA7C800AEC297 /* MyOCUITests.m */,
+				032AA88920EBA7C800AEC297 /* Info.plist */,
+			);
+			path = MyOCUITests;
+			sourceTree = "<group>";
+		};
+		032AA89520EBA7FF00AEC297 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				032AA89620EBA7FF00AEC297 /* OCNavigationController.h */,
+				032AA89720EBA7FF00AEC297 /* AppDelegate.h */,
+				032AA89820EBA7FF00AEC297 /* OCViewController.m */,
+				032AA89920EBA7FF00AEC297 /* OCTabBarController.h */,
+				032AA89A20EBA7FF00AEC297 /* OCTableViewController.h */,
+				032AA89B20EBA7FF00AEC297 /* OCNavigationController.m */,
+				032AA89C20EBA7FF00AEC297 /* AppDelegate.m */,
+				032AA89D20EBA7FF00AEC297 /* OCTableViewController.m */,
+				032AA89E20EBA7FF00AEC297 /* OCTabBarController.m */,
+				032AA89F20EBA7FF00AEC297 /* OCViewController.h */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		032AA8A520EBA81000AEC297 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				032AA8B820EBA81000AEC297 /* TabOneNavigationController.h */,
+				032AA8A620EBA81000AEC297 /* TabOneNavigationController.m */,
+				032AA8A720EBA81000AEC297 /* TabOneTableViewController.xib */,
+				032AA8B920EBA81000AEC297 /* TabOneTableViewController.h */,
+				032AA8A820EBA81000AEC297 /* TabOneTableViewController.m */,
+				032AA8AA20EBA81000AEC297 /* TabOneNavigationController.xib */,
+				032AA8BA20EBA81000AEC297 /* PageControlViewController.h */,
+				032AA8B620EBA81000AEC297 /* PageControlViewController.m */,
+				032AA8AB20EBA81000AEC297 /* PageControlViewController.xib */,
+				032AA94F20EBC86C00AEC297 /* OCPageControl.h */,
+				032AA94E20EBC86C00AEC297 /* OCPageControl.m */,
+				032AA8AC20EBA81000AEC297 /* statusBar */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		032AA8AC20EBA81000AEC297 /* statusBar */ = {
+			isa = PBXGroup;
+			children = (
+				032AA8AD20EBA81000AEC297 /* StatusBarOneViewController.h */,
+				032AA8B320EBA81000AEC297 /* StatusBarOneViewController.m */,
+				032AA8B120EBA81000AEC297 /* StatusBarOneViewController.xib */,
+				032AA8B020EBA81000AEC297 /* StatusBarTwoViewController.h */,
+				032AA8B520EBA81000AEC297 /* StatusBarTwoViewController.m */,
+				032AA8AF20EBA81000AEC297 /* StatusBarTwoViewController.xib */,
+				032AA8B420EBA81000AEC297 /* StatusBarThreeViewController.h */,
+				032AA8AE20EBA81000AEC297 /* StatusBarThreeViewController.m */,
+				032AA8B220EBA81000AEC297 /* StatusBarThreeViewController.xib */,
+			);
+			path = statusBar;
+			sourceTree = "<group>";
+		};
+		032AA8C920EBA84700AEC297 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				032AA8CA20EBA84800AEC297 /* UIView+Dimensions.m */,
+				032AA8CB20EBA84800AEC297 /* UIView+Dimensions.h */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		032AA8CE20EBAACA00AEC297 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				032AA8B720EBA81000AEC297 /* cui.jpg */,
+				032AA8A920EBA81000AEC297 /* safari.png */,
+			);
+			path = img;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		032AA85F20EBA7C400AEC297 /* MyOC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 032AA88C20EBA7C800AEC297 /* Build configuration list for PBXNativeTarget "MyOC" */;
+			buildPhases = (
+				032AA85C20EBA7C400AEC297 /* Sources */,
+				032AA85D20EBA7C400AEC297 /* Frameworks */,
+				032AA85E20EBA7C400AEC297 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyOC;
+			productName = MyOC;
+			productReference = 032AA86020EBA7C400AEC297 /* MyOC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		032AA87720EBA7C800AEC297 /* MyOCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 032AA88F20EBA7C800AEC297 /* Build configuration list for PBXNativeTarget "MyOCTests" */;
+			buildPhases = (
+				032AA87420EBA7C800AEC297 /* Sources */,
+				032AA87520EBA7C800AEC297 /* Frameworks */,
+				032AA87620EBA7C800AEC297 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				032AA87A20EBA7C800AEC297 /* PBXTargetDependency */,
+			);
+			name = MyOCTests;
+			productName = MyOCTests;
+			productReference = 032AA87820EBA7C800AEC297 /* MyOCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		032AA88220EBA7C800AEC297 /* MyOCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 032AA89220EBA7C800AEC297 /* Build configuration list for PBXNativeTarget "MyOCUITests" */;
+			buildPhases = (
+				032AA87F20EBA7C800AEC297 /* Sources */,
+				032AA88020EBA7C800AEC297 /* Frameworks */,
+				032AA88120EBA7C800AEC297 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				032AA88520EBA7C800AEC297 /* PBXTargetDependency */,
+			);
+			name = MyOCUITests;
+			productName = MyOCUITests;
+			productReference = 032AA88320EBA7C800AEC297 /* MyOCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		032AA85820EBA7C400AEC297 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Jack;
+				TargetAttributes = {
+					032AA85F20EBA7C400AEC297 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					032AA87720EBA7C800AEC297 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 032AA85F20EBA7C400AEC297;
+					};
+					032AA88220EBA7C800AEC297 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 032AA85F20EBA7C400AEC297;
+					};
+				};
+			};
+			buildConfigurationList = 032AA85B20EBA7C400AEC297 /* Build configuration list for PBXProject "MyOC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 032AA85720EBA7C400AEC297;
+			productRefGroup = 032AA86120EBA7C400AEC297 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				032AA85F20EBA7C400AEC297 /* MyOC */,
+				032AA87720EBA7C800AEC297 /* MyOCTests */,
+				032AA88220EBA7C800AEC297 /* MyOCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		032AA85E20EBA7C400AEC297 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				032AA8BF20EBA81000AEC297 /* TabOneNavigationController.xib in Resources */,
+				032AA8C820EBA81000AEC297 /* cui.jpg in Resources */,
+				032AA8C320EBA81000AEC297 /* StatusBarOneViewController.xib in Resources */,
+				032AA87020EBA7C700AEC297 /* LaunchScreen.storyboard in Resources */,
+				032AA86D20EBA7C700AEC297 /* Assets.xcassets in Resources */,
+				032AA8C020EBA81000AEC297 /* PageControlViewController.xib in Resources */,
+				032AA8BC20EBA81000AEC297 /* TabOneTableViewController.xib in Resources */,
+				032AA8C420EBA81000AEC297 /* StatusBarThreeViewController.xib in Resources */,
+				032AA8C220EBA81000AEC297 /* StatusBarTwoViewController.xib in Resources */,
+				032AA8BE20EBA81000AEC297 /* safari.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		032AA87620EBA7C800AEC297 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		032AA88120EBA7C800AEC297 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		032AA85C20EBA7C400AEC297 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				032AA8BD20EBA81000AEC297 /* TabOneTableViewController.m in Sources */,
+				032AA8A420EBA7FF00AEC297 /* OCTabBarController.m in Sources */,
+				032AA86820EBA7C400AEC297 /* ViewController.m in Sources */,
+				032AA8A320EBA7FF00AEC297 /* OCTableViewController.m in Sources */,
+				032AA8A120EBA7FF00AEC297 /* OCNavigationController.m in Sources */,
+				032AA8BB20EBA81000AEC297 /* TabOneNavigationController.m in Sources */,
+				032AA87320EBA7C700AEC297 /* main.m in Sources */,
+				032AA8C120EBA81000AEC297 /* StatusBarThreeViewController.m in Sources */,
+				032AA8C520EBA81000AEC297 /* StatusBarOneViewController.m in Sources */,
+				032AA95020EBC86C00AEC297 /* OCPageControl.m in Sources */,
+				032AA8CC20EBA84800AEC297 /* UIView+Dimensions.m in Sources */,
+				032AA8C620EBA81000AEC297 /* StatusBarTwoViewController.m in Sources */,
+				032AA8A020EBA7FF00AEC297 /* OCViewController.m in Sources */,
+				032AA8C720EBA81000AEC297 /* PageControlViewController.m in Sources */,
+				032AA8A220EBA7FF00AEC297 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		032AA87420EBA7C800AEC297 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				032AA87D20EBA7C800AEC297 /* MyOCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		032AA87F20EBA7C800AEC297 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				032AA88820EBA7C800AEC297 /* MyOCUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		032AA87A20EBA7C800AEC297 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 032AA85F20EBA7C400AEC297 /* MyOC */;
+			targetProxy = 032AA87920EBA7C800AEC297 /* PBXContainerItemProxy */;
+		};
+		032AA88520EBA7C800AEC297 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 032AA85F20EBA7C400AEC297 /* MyOC */;
+			targetProxy = 032AA88420EBA7C800AEC297 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		032AA86E20EBA7C700AEC297 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				032AA86F20EBA7C700AEC297 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		032AA88A20EBA7C800AEC297 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		032AA88B20EBA7C800AEC297 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		032AA88D20EBA7C800AEC297 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AC9BUWF6G2;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MyOC/MyOC-Prefix.pch";
+				INFOPLIST_FILE = MyOC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.oahin.com.MyOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		032AA88E20EBA7C800AEC297 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AC9BUWF6G2;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MyOC/MyOC-Prefix.pch";
+				INFOPLIST_FILE = MyOC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.oahin.com.MyOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		032AA89020EBA7C800AEC297 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyOCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.oahin.com.MyOCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyOC.app/MyOC";
+			};
+			name = Debug;
+		};
+		032AA89120EBA7C800AEC297 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyOCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.oahin.com.MyOCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyOC.app/MyOC";
+			};
+			name = Release;
+		};
+		032AA89320EBA7C800AEC297 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyOCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.oahin.com.MyOCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyOC;
+			};
+			name = Debug;
+		};
+		032AA89420EBA7C800AEC297 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyOCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.oahin.com.MyOCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyOC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		032AA85B20EBA7C400AEC297 /* Build configuration list for PBXProject "MyOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				032AA88A20EBA7C800AEC297 /* Debug */,
+				032AA88B20EBA7C800AEC297 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		032AA88C20EBA7C800AEC297 /* Build configuration list for PBXNativeTarget "MyOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				032AA88D20EBA7C800AEC297 /* Debug */,
+				032AA88E20EBA7C800AEC297 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		032AA88F20EBA7C800AEC297 /* Build configuration list for PBXNativeTarget "MyOCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				032AA89020EBA7C800AEC297 /* Debug */,
+				032AA89120EBA7C800AEC297 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		032AA89220EBA7C800AEC297 /* Build configuration list for PBXNativeTarget "MyOCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				032AA89320EBA7C800AEC297 /* Debug */,
+				032AA89420EBA7C800AEC297 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 032AA85820EBA7C400AEC297 /* Project object */;
+}
