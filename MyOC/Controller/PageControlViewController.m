@@ -18,14 +18,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
+    self.view.backgroundColor = [UIColor redColor];
+    
     self.scroll = [[UIScrollView alloc] initWithFrame:CGRectMake(10, 150, 300, 100)];
     self.scroll.backgroundColor =  [UIColor lightGrayColor];
     self.scroll.contentSize = CGSizeMake(900, 0);
     self.scroll.delegate = self;
-//    self.scroll.pagingEnabled = YES;
+    self.scroll.pagingEnabled = YES;
     [self.view addSubview:self.scroll];
 
-    self.page = [[UIPageControl alloc] initWithFrame:CGRectMake(100, 300, 100, 100)];
+    self.page = [[UIPageControl alloc] initWithFrame:CGRectMake(self.view.width/2-150, 300, 100, 50)];
     self.page.backgroundColor = [UIColor purpleColor];
     self.page.numberOfPages = 3;
     self.page.currentPage = 0;

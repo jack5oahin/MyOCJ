@@ -34,6 +34,8 @@
 		032AA8C820EBA81000AEC297 /* cui.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 032AA8B720EBA81000AEC297 /* cui.jpg */; };
 		032AA8CC20EBA84800AEC297 /* UIView+Dimensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 032AA8CA20EBA84800AEC297 /* UIView+Dimensions.m */; };
 		032AA95020EBC86C00AEC297 /* OCPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 032AA94E20EBC86C00AEC297 /* OCPageControl.m */; };
+		032AA95420EBCE4300AEC297 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 032AA95220EBCE4300AEC297 /* TestViewController.m */; };
+		032AA95520EBCE4300AEC297 /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 032AA95320EBCE4300AEC297 /* TestViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,6 +104,9 @@
 		032AA8CD20EBA91B00AEC297 /* MyOC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyOC-Prefix.pch"; sourceTree = "<group>"; };
 		032AA94E20EBC86C00AEC297 /* OCPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCPageControl.m; sourceTree = "<group>"; };
 		032AA94F20EBC86C00AEC297 /* OCPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCPageControl.h; sourceTree = "<group>"; };
+		032AA95120EBCE4300AEC297 /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		032AA95220EBCE4300AEC297 /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		032AA95320EBCE4300AEC297 /* TestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,16 +193,16 @@
 		032AA89520EBA7FF00AEC297 /* AppDelegate */ = {
 			isa = PBXGroup;
 			children = (
-				032AA89620EBA7FF00AEC297 /* OCNavigationController.h */,
 				032AA89720EBA7FF00AEC297 /* AppDelegate.h */,
-				032AA89820EBA7FF00AEC297 /* OCViewController.m */,
-				032AA89920EBA7FF00AEC297 /* OCTabBarController.h */,
-				032AA89A20EBA7FF00AEC297 /* OCTableViewController.h */,
-				032AA89B20EBA7FF00AEC297 /* OCNavigationController.m */,
 				032AA89C20EBA7FF00AEC297 /* AppDelegate.m */,
-				032AA89D20EBA7FF00AEC297 /* OCTableViewController.m */,
-				032AA89E20EBA7FF00AEC297 /* OCTabBarController.m */,
 				032AA89F20EBA7FF00AEC297 /* OCViewController.h */,
+				032AA89820EBA7FF00AEC297 /* OCViewController.m */,
+				032AA89A20EBA7FF00AEC297 /* OCTableViewController.h */,
+				032AA89D20EBA7FF00AEC297 /* OCTableViewController.m */,
+				032AA89620EBA7FF00AEC297 /* OCNavigationController.h */,
+				032AA89B20EBA7FF00AEC297 /* OCNavigationController.m */,
+				032AA89920EBA7FF00AEC297 /* OCTabBarController.h */,
+				032AA89E20EBA7FF00AEC297 /* OCTabBarController.m */,
 			);
 			path = AppDelegate;
 			sourceTree = "<group>";
@@ -216,6 +221,9 @@
 				032AA8AB20EBA81000AEC297 /* PageControlViewController.xib */,
 				032AA94F20EBC86C00AEC297 /* OCPageControl.h */,
 				032AA94E20EBC86C00AEC297 /* OCPageControl.m */,
+				032AA95120EBCE4300AEC297 /* TestViewController.h */,
+				032AA95220EBCE4300AEC297 /* TestViewController.m */,
+				032AA95320EBCE4300AEC297 /* TestViewController.xib */,
 				032AA8AC20EBA81000AEC297 /* statusBar */,
 			);
 			path = Controller;
@@ -361,6 +369,7 @@
 				032AA8BF20EBA81000AEC297 /* TabOneNavigationController.xib in Resources */,
 				032AA8C820EBA81000AEC297 /* cui.jpg in Resources */,
 				032AA8C320EBA81000AEC297 /* StatusBarOneViewController.xib in Resources */,
+				032AA95520EBCE4300AEC297 /* TestViewController.xib in Resources */,
 				032AA87020EBA7C700AEC297 /* LaunchScreen.storyboard in Resources */,
 				032AA86D20EBA7C700AEC297 /* Assets.xcassets in Resources */,
 				032AA8C020EBA81000AEC297 /* PageControlViewController.xib in Resources */,
@@ -406,6 +415,7 @@
 				032AA8C620EBA81000AEC297 /* StatusBarTwoViewController.m in Sources */,
 				032AA8A020EBA7FF00AEC297 /* OCViewController.m in Sources */,
 				032AA8C720EBA81000AEC297 /* PageControlViewController.m in Sources */,
+				032AA95420EBCE4300AEC297 /* TestViewController.m in Sources */,
 				032AA8A220EBA7FF00AEC297 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

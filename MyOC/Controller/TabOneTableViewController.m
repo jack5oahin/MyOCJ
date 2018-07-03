@@ -9,6 +9,7 @@
 #import "TabOneTableViewController.h"
 #import "StatusBarOneViewController.h"
 #import "PageControlViewController.h"
+#import "TestViewController.h"
 
 @interface TabOneTableViewController ()
 @property (nonatomic, strong) NSMutableArray *sourceArrM;
@@ -23,7 +24,7 @@ static NSString *GCellID = @"GeneralCellID";
     self.navigationItem.title = @"导航";
     self.sourceArrM = [NSMutableArray array];
     
-    self.sourceArrM = [@[@"StatusBar", @"PageControl"] mutableCopy];
+    self.sourceArrM = [@[@"StatusBar", @"PageControl", @"Test"] mutableCopy];
     
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:GCellID];
 }
@@ -72,6 +73,12 @@ static NSString *GCellID = @"GeneralCellID";
         {
             PageControlViewController *pageControlVC = [[PageControlViewController alloc] initWithNibName:@"PageControlViewController" bundle:nil];
             [self.navigationController pushViewController:pageControlVC animated:YES];
+        }
+            break;
+        case 2:
+        {
+            TestViewController *test = [[TestViewController alloc] initWithNibName:@"TestViewController" bundle:nil];
+            [self.navigationController pushViewController:test animated:YES];
         }
             break;
         default:
