@@ -11,7 +11,7 @@
 
 #import "UIView+Dimensions.h"
 
-#define SCWidth [UIScreen mainScreen].bounds.size.width
-#define SCHeight [UIScreen mainScreen].bounds.size.height
+#define SCRWidth [UIScreen mainScreen].bounds.size.width
+#define SCRHeight [UIScreen mainScreen].bounds.size.height
 
 #endif /* MyOC_Prefix_pch */

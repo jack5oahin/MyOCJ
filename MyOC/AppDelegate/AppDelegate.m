@@ -11,6 +11,10 @@
 #import "TabOneNavigationController.h"
 #import "TabOneTableViewController.h"
 #import "ViewController.h"
+#import "TwoViewController.h"
+#import "ThreeViewController.h"
+#import "FourViewController.h"
+
 @interface AppDelegate ()
 
 @end
@@ -22,12 +26,32 @@
 
     TabOneTableViewController *tabOneTVC = [[TabOneTableViewController alloc] initWithNibName:@"TabOneTableViewController" bundle:nil];
     TabOneNavigationController *tabOneNC = [[TabOneNavigationController alloc] initWithRootViewController:tabOneTVC];
-    ViewController *vc1 = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
-    ViewController *vc2 = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
-    ViewController *vc3 = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
+    
+    tabOneTVC.tabBarItem.title = @"基础";
+    tabOneTVC.tabBarItem.image = [[UIImage imageNamed:@"Safari"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    
+    TwoViewController *vc2 = [[TwoViewController alloc] initWithNibName:@"TwoViewController" bundle:nil];
+    //下面两行代码，必须写在这里，不能写在vc2的ViewDidLoad里，因为，处理tabbarController的item的时候，还没有开始加载vc2呢,当然不会加载item了。
+    vc2.tabBarItem.title = @"QQ";
+    vc2.tabBarItem.image = [[UIImage imageNamed:@"QQ"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    
+    ThreeViewController *vc3 = [[ThreeViewController alloc] initWithNibName:@"ThreeViewController" bundle:nil];
+    vc3.tabBarItem.title = @"Chrome";
+    vc3.tabBarItem.image = [[UIImage imageNamed:@"Chrome"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    
+    FourViewController *vc4 = [[FourViewController alloc] initWithNibName:@"FourViewController" bundle:nil];
+    vc4.tabBarItem.title = @"Xcode";
+    vc4.tabBarItem.image = [[UIImage imageNamed:@"Xcode"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     
     OCTabBarController *tabC = [[OCTabBarController alloc] init];
-    tabC.viewControllers = @[tabOneNC, vc1, vc2, vc3];
+    //tabC.selectedIndex = 2; 必须写在“tabC.viewControllers = @[tabOneNC, vc2, vc3, vc4];”后面
+    //    tabC.viewControllers = @[tabOneNC, vc2, vc3, vc4];
+    [tabC addChildViewController:tabOneNC];
+    [tabC addChildViewController:vc2];
+    [tabC addChildViewController:vc3];
+    [tabC addChildViewController:vc4];
+    
+    tabC.selectedIndex = 0;
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.rootViewController = tabC;
     [self.window makeKeyAndVisible];

@@ -39,7 +39,7 @@
     [self.changeStatusBarBgColorSc setWidth:90 forSegmentAtIndex:2];
 //    [self.changeStatusBarBgColorSc setWidth:90 forSegmentAtIndex:3];
     self.changeStatusBarBgColorSc.width = 180;
-    self.changeStatusBarBgColorSc.x = (SCWidth - 180)*0.5;
+    self.changeStatusBarBgColorSc.x = (SCRWidth - 180)*0.5;
     
     
     

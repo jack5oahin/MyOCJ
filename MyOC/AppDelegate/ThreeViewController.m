@@ -1,26 +1,25 @@
 //
-//  OCTabBarController.m
+//  ThreeViewController.m
 //  myObjectiveC
 //
-//  Created by Glory Staffing on 2018/6/6.
+//  Created by Glory Staffing on 2018/7/3.
 //  Copyright © 2018年 My Organization. All rights reserved.
 //
 
-#import "OCTabBarController.h"
+#import "ThreeViewController.h"
 
-@interface OCTabBarController ()
+@interface ThreeViewController ()
 
 @end
 
-@implementation OCTabBarController
+@implementation ThreeViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    //这个api不起作用，用下面的api
-    self.tabBar.backgroundColor = [UIColor colorWithRed:206/255.0 green:206/255.0 blue:206/255.0 alpha:1.0];
-    self.tabBar.barTintColor = [UIColor colorWithRed:206/255.0 green:206/255.0 blue:206/255.0 alpha:1.0];
-//    self.tabBar.tintColor;
+//    self.tabBarItem.title = @"Chrome";
+//    self.tabBarItem.image = [[UIImage imageNamed:@"Chrome"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+//    self.tabBarItem.selectedImage = [[UIImage imageNamed:@"Chrome"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
 }
 
 - (void)didReceiveMemoryWarning {

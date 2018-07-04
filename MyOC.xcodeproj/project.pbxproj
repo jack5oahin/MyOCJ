@@ -21,7 +21,6 @@
 		032AA8BB20EBA81000AEC297 /* TabOneNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 032AA8A620EBA81000AEC297 /* TabOneNavigationController.m */; };
 		032AA8BC20EBA81000AEC297 /* TabOneTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 032AA8A720EBA81000AEC297 /* TabOneTableViewController.xib */; };
 		032AA8BD20EBA81000AEC297 /* TabOneTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 032AA8A820EBA81000AEC297 /* TabOneTableViewController.m */; };
-		032AA8BE20EBA81000AEC297 /* safari.png in Resources */ = {isa = PBXBuildFile; fileRef = 032AA8A920EBA81000AEC297 /* safari.png */; };
 		032AA8BF20EBA81000AEC297 /* TabOneNavigationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 032AA8AA20EBA81000AEC297 /* TabOneNavigationController.xib */; };
 		032AA8C020EBA81000AEC297 /* PageControlViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 032AA8AB20EBA81000AEC297 /* PageControlViewController.xib */; };
 		032AA8C120EBA81000AEC297 /* StatusBarThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 032AA8AE20EBA81000AEC297 /* StatusBarThreeViewController.m */; };
@@ -36,6 +35,17 @@
 		032AA95020EBC86C00AEC297 /* OCPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 032AA94E20EBC86C00AEC297 /* OCPageControl.m */; };
 		032AA95420EBCE4300AEC297 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 032AA95220EBCE4300AEC297 /* TestViewController.m */; };
 		032AA95520EBCE4300AEC297 /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 032AA95320EBCE4300AEC297 /* TestViewController.xib */; };
+		D5FFE19A20EC4B2000E1CCE7 /* Xcode.png in Resources */ = {isa = PBXBuildFile; fileRef = D5FFE19520EC4B1F00E1CCE7 /* Xcode.png */; };
+		D5FFE19B20EC4B2000E1CCE7 /* linkin.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D5FFE19620EC4B2000E1CCE7 /* linkin.jpeg */; };
+		D5FFE19D20EC4B2000E1CCE7 /* QQ.png in Resources */ = {isa = PBXBuildFile; fileRef = D5FFE19820EC4B2000E1CCE7 /* QQ.png */; };
+		D5FFE19E20EC4B2000E1CCE7 /* Chrome.png in Resources */ = {isa = PBXBuildFile; fileRef = D5FFE19920EC4B2000E1CCE7 /* Chrome.png */; };
+		D5FFE1A020EC4B8A00E1CCE7 /* Safari.png in Resources */ = {isa = PBXBuildFile; fileRef = D5FFE19F20EC4B8A00E1CCE7 /* Safari.png */; };
+		D5FFE1AA20EC559B00E1CCE7 /* ThreeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5FFE1A120EC559A00E1CCE7 /* ThreeViewController.xib */; };
+		D5FFE1AB20EC559B00E1CCE7 /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5FFE1A220EC559A00E1CCE7 /* TwoViewController.m */; };
+		D5FFE1AC20EC559B00E1CCE7 /* TwoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5FFE1A320EC559A00E1CCE7 /* TwoViewController.xib */; };
+		D5FFE1AD20EC559B00E1CCE7 /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5FFE1A420EC559A00E1CCE7 /* ThreeViewController.m */; };
+		D5FFE1AE20EC559B00E1CCE7 /* FourViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5FFE1A520EC559B00E1CCE7 /* FourViewController.xib */; };
+		D5FFE1AF20EC559B00E1CCE7 /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5FFE1A920EC559B00E1CCE7 /* FourViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,7 +92,6 @@
 		032AA8A620EBA81000AEC297 /* TabOneNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabOneNavigationController.m; sourceTree = "<group>"; };
 		032AA8A720EBA81000AEC297 /* TabOneTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabOneTableViewController.xib; sourceTree = "<group>"; };
 		032AA8A820EBA81000AEC297 /* TabOneTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabOneTableViewController.m; sourceTree = "<group>"; };
-		032AA8A920EBA81000AEC297 /* safari.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = safari.png; sourceTree = "<group>"; };
 		032AA8AA20EBA81000AEC297 /* TabOneNavigationController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabOneNavigationController.xib; sourceTree = "<group>"; };
 		032AA8AB20EBA81000AEC297 /* PageControlViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PageControlViewController.xib; sourceTree = "<group>"; };
 		032AA8AD20EBA81000AEC297 /* StatusBarOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusBarOneViewController.h; sourceTree = "<group>"; };
@@ -107,6 +116,20 @@
 		032AA95120EBCE4300AEC297 /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
 		032AA95220EBCE4300AEC297 /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		032AA95320EBCE4300AEC297 /* TestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
+		D5FFE19520EC4B1F00E1CCE7 /* Xcode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Xcode.png; sourceTree = "<group>"; };
+		D5FFE19620EC4B2000E1CCE7 /* linkin.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = linkin.jpeg; sourceTree = "<group>"; };
+		D5FFE19820EC4B2000E1CCE7 /* QQ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = QQ.png; sourceTree = "<group>"; };
+		D5FFE19920EC4B2000E1CCE7 /* Chrome.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chrome.png; sourceTree = "<group>"; };
+		D5FFE19F20EC4B8A00E1CCE7 /* Safari.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Safari.png; sourceTree = "<group>"; };
+		D5FFE1A120EC559A00E1CCE7 /* ThreeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThreeViewController.xib; sourceTree = "<group>"; };
+		D5FFE1A220EC559A00E1CCE7 /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+		D5FFE1A320EC559A00E1CCE7 /* TwoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TwoViewController.xib; sourceTree = "<group>"; };
+		D5FFE1A420EC559A00E1CCE7 /* ThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeViewController.m; sourceTree = "<group>"; };
+		D5FFE1A520EC559B00E1CCE7 /* FourViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FourViewController.xib; sourceTree = "<group>"; };
+		D5FFE1A620EC559B00E1CCE7 /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		D5FFE1A720EC559B00E1CCE7 /* ThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeViewController.h; sourceTree = "<group>"; };
+		D5FFE1A820EC559B00E1CCE7 /* FourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourViewController.h; sourceTree = "<group>"; };
+		D5FFE1A920EC559B00E1CCE7 /* FourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,7 +184,7 @@
 				032AA89520EBA7FF00AEC297 /* AppDelegate */,
 				032AA86620EBA7C400AEC297 /* ViewController.h */,
 				032AA86720EBA7C400AEC297 /* ViewController.m */,
-				032AA8A520EBA81000AEC297 /* Controller */,
+				032AA8A520EBA81000AEC297 /* Main */,
 				032AA86C20EBA7C700AEC297 /* Assets.xcassets */,
 				032AA8CE20EBAACA00AEC297 /* img */,
 				032AA86E20EBA7C700AEC297 /* LaunchScreen.storyboard */,
@@ -203,11 +226,20 @@
 				032AA89B20EBA7FF00AEC297 /* OCNavigationController.m */,
 				032AA89920EBA7FF00AEC297 /* OCTabBarController.h */,
 				032AA89E20EBA7FF00AEC297 /* OCTabBarController.m */,
+				D5FFE1A820EC559B00E1CCE7 /* FourViewController.h */,
+				D5FFE1A920EC559B00E1CCE7 /* FourViewController.m */,
+				D5FFE1A520EC559B00E1CCE7 /* FourViewController.xib */,
+				D5FFE1A720EC559B00E1CCE7 /* ThreeViewController.h */,
+				D5FFE1A420EC559A00E1CCE7 /* ThreeViewController.m */,
+				D5FFE1A120EC559A00E1CCE7 /* ThreeViewController.xib */,
+				D5FFE1A620EC559B00E1CCE7 /* TwoViewController.h */,
+				D5FFE1A220EC559A00E1CCE7 /* TwoViewController.m */,
+				D5FFE1A320EC559A00E1CCE7 /* TwoViewController.xib */,
 			);
 			path = AppDelegate;
 			sourceTree = "<group>";
 		};
-		032AA8A520EBA81000AEC297 /* Controller */ = {
+		032AA8A520EBA81000AEC297 /* Main */ = {
 			isa = PBXGroup;
 			children = (
 				032AA8B820EBA81000AEC297 /* TabOneNavigationController.h */,
@@ -226,7 +258,7 @@
 				032AA95320EBCE4300AEC297 /* TestViewController.xib */,
 				032AA8AC20EBA81000AEC297 /* statusBar */,
 			);
-			path = Controller;
+			path = Main;
 			sourceTree = "<group>";
 		};
 		032AA8AC20EBA81000AEC297 /* statusBar */ = {
@@ -257,8 +289,12 @@
 		032AA8CE20EBAACA00AEC297 /* img */ = {
 			isa = PBXGroup;
 			children = (
+				D5FFE19920EC4B2000E1CCE7 /* Chrome.png */,
+				D5FFE19620EC4B2000E1CCE7 /* linkin.jpeg */,
+				D5FFE19820EC4B2000E1CCE7 /* QQ.png */,
+				D5FFE19520EC4B1F00E1CCE7 /* Xcode.png */,
 				032AA8B720EBA81000AEC297 /* cui.jpg */,
-				032AA8A920EBA81000AEC297 /* safari.png */,
+				D5FFE19F20EC4B8A00E1CCE7 /* Safari.png */,
 			);
 			path = img;
 			sourceTree = "<group>";
@@ -367,16 +403,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				032AA8BF20EBA81000AEC297 /* TabOneNavigationController.xib in Resources */,
+				D5FFE19B20EC4B2000E1CCE7 /* linkin.jpeg in Resources */,
+				D5FFE1AE20EC559B00E1CCE7 /* FourViewController.xib in Resources */,
 				032AA8C820EBA81000AEC297 /* cui.jpg in Resources */,
+				D5FFE1A020EC4B8A00E1CCE7 /* Safari.png in Resources */,
 				032AA8C320EBA81000AEC297 /* StatusBarOneViewController.xib in Resources */,
 				032AA95520EBCE4300AEC297 /* TestViewController.xib in Resources */,
 				032AA87020EBA7C700AEC297 /* LaunchScreen.storyboard in Resources */,
+				D5FFE1AC20EC559B00E1CCE7 /* TwoViewController.xib in Resources */,
 				032AA86D20EBA7C700AEC297 /* Assets.xcassets in Resources */,
 				032AA8C020EBA81000AEC297 /* PageControlViewController.xib in Resources */,
+				D5FFE19A20EC4B2000E1CCE7 /* Xcode.png in Resources */,
 				032AA8BC20EBA81000AEC297 /* TabOneTableViewController.xib in Resources */,
+				D5FFE19D20EC4B2000E1CCE7 /* QQ.png in Resources */,
+				D5FFE19E20EC4B2000E1CCE7 /* Chrome.png in Resources */,
 				032AA8C420EBA81000AEC297 /* StatusBarThreeViewController.xib in Resources */,
 				032AA8C220EBA81000AEC297 /* StatusBarTwoViewController.xib in Resources */,
-				032AA8BE20EBA81000AEC297 /* safari.png in Resources */,
+				D5FFE1AA20EC559B00E1CCE7 /* ThreeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,9 +455,12 @@
 				032AA8C520EBA81000AEC297 /* StatusBarOneViewController.m in Sources */,
 				032AA95020EBC86C00AEC297 /* OCPageControl.m in Sources */,
 				032AA8CC20EBA84800AEC297 /* UIView+Dimensions.m in Sources */,
+				D5FFE1AB20EC559B00E1CCE7 /* TwoViewController.m in Sources */,
 				032AA8C620EBA81000AEC297 /* StatusBarTwoViewController.m in Sources */,
 				032AA8A020EBA7FF00AEC297 /* OCViewController.m in Sources */,
 				032AA8C720EBA81000AEC297 /* PageControlViewController.m in Sources */,
+				D5FFE1AD20EC559B00E1CCE7 /* ThreeViewController.m in Sources */,
+				D5FFE1AF20EC559B00E1CCE7 /* FourViewController.m in Sources */,
 				032AA95420EBCE4300AEC297 /* TestViewController.m in Sources */,
 				032AA8A220EBA7FF00AEC297 /* AppDelegate.m in Sources */,
 			);
@@ -578,7 +624,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = AC9BUWF6G2;
+				DEVELOPMENT_TEAM = RNZ3KXCEUG;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/MyOC/MyOC-Prefix.pch";
 				INFOPLIST_FILE = MyOC/Info.plist;
@@ -598,7 +644,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = AC9BUWF6G2;
+				DEVELOPMENT_TEAM = RNZ3KXCEUG;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/MyOC/MyOC-Prefix.pch";
 				INFOPLIST_FILE = MyOC/Info.plist;
