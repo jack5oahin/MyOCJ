@@ -9,7 +9,7 @@
 #import "PageControlViewController.h"
 #import "OCPageControl.h"
 
-@interface PageControlViewController () <UIScrollViewDelegate>
+@interface PageControlViewController () <UIScrollViewDelegate, OCPageControlDelegate>
 {
     int VC_ImageCount;
     UIScrollView  *scrollview ;
@@ -36,7 +36,8 @@
     
     self.scroll = [[UIScrollView alloc] initWithFrame:CGRectMake((SCRWidth-300)*0.5, 70, 300, 100)];
     self.scroll.backgroundColor =  [UIColor lightGrayColor];
-    self.scroll.contentSize = CGSizeMake(900, 0);
+#warning 习惯把contentSize=CGSizeMake(900, 0)，即y=0，这样的坏处，scrollRectToVisible方法，会失效。
+    self.scroll.contentSize = CGSizeMake(900, 1);
     self.scroll.delegate = self;
     self.scroll.pagingEnabled = YES;
     self.scroll.bounces = NO;
@@ -53,113 +54,72 @@
     [self.scroll addSubview:v2];
     [self.scroll addSubview:v3];
 
-    self.page = [[UIPageControl alloc] initWithFrame:CGRectMake(0, 200, SCRWidth, 50)];
-//    self.page.center = CGPointMake(self.view.center.x, self.page.center.y);
+    self.page = [[UIPageControl alloc] initWithFrame:CGRectMake(0, 200, SCRWidth, 10)];
+    self.page.center = CGPointMake(self.view.center.x, self.page.center.y);
     self.page.backgroundColor = [UIColor purpleColor];
     self.page.tintColor = [UIColor yellowColor];
     self.page.numberOfPages = 3;
     self.page.currentPage = 0;
-    self.page.pageIndicatorTintColor = [UIColor redColor];
-    self.page.currentPageIndicatorTintColor = [UIColor blueColor];
+    self.page.pageIndicatorTintColor = [UIColor whiteColor];
+    self.page.currentPageIndicatorTintColor = [UIColor blackColor];
     [self.view addSubview:self.page];
+    [self.page addTarget:self action:@selector(pageControlTouched:) forControlEvents:UIControlEventTouchUpInside];
     
     self.ocPage = [[OCPageControl alloc] initWithFrame:CGRectMake(0, 300, SCRWidth, 10)];
-    self.ocPage.center = self.view.center;
-
+    //    self.ocPage.center = self.view.center; //ocPage中，layoutSubviews中，设置了居中。
+    self.ocPage.backgroundColor = [UIColor purpleColor];
     self.ocPage.numberOfPages = 3;
     self.ocPage.currentPage = 0;
-//    self.ocPage.currentPageIndicatorTintColor = [UIColor blueColor];
-////    self.ocPage.numberOfPages = 3;
-//    self.ocPage.pageIndicatorTintColor = [UIColor redColor];
+    self.ocPage.currentPageIndicatorTintColor = [UIColor blackColor];
+    self.ocPage.pageIndicatorTintColor = [UIColor whiteColor];
     [self.view addSubview:self.ocPage];
     
+    //page直接添加点击事件时，pageControl只能，依次，移动，不能，点击任意dot
+//    [self.ocPage addTarget:self action:@selector(pageControlTouched:) forControlEvents:UIControlEventTouchUpInside];
     
-    
-    
-    int VC_ImageCount = 4;
-    UIScrollView  *scrollview ;
-    
-    UIPageControl  *PageControl ;
-    
-    UIButton  *TempBtn ;
-    
-    UIButton  *btn;
-    
-    UIButton   *temp_BTn;
+    //为page每个dot添加上btn，
+    self.ocPage.delegate = self;
     
 }
-
+- (void)viewWillLayoutSubviews
+{
+    [super viewWillLayoutSubviews];
+}
+-(void)viewDidLayoutSubviews
+{
+    [super viewDidLayoutSubviews];
+}
 -(void)scrollViewDidScroll:(UIScrollView *)scrollView
 {
+    NSLog(@"%s",__FUNCTION__);
     int pageNum = scrollView.contentOffset.x / scrollView.width;
     self.page.currentPage = pageNum;
     self.ocPage.currentPage = pageNum;
 }
 
+- (void)pageControlTouched:(UIPageControl *)page
+{
+    CGRect frame = self.scroll.frame;
+    CGRect rect = CGRectMake(frame.size.width * page.currentPage, 0, frame.size.width, frame.size.height);
+    
+    //下面这样两个方法皆可
+    [self.scroll scrollRectToVisible:rect animated:YES];
+//  [self.scroll setContentOffset:CGPointMake(frame.size.width * page.currentPage, 0) animated:YES];
+}
+
+//自定义的代理方法
+-(void)pageControl:(OCPageControl *)pageControl didSelectDotAtIndex:(NSUInteger)index
+{
+    CGRect frame = self.scroll.frame;
+    CGRect rect = CGRectMake(frame.size.width * index, 0, frame.size.width, frame.size.height);
+    
+#warning 如果animate=YES，scrollview还是会，依次滚动到目标位置。
+    [self.scroll scrollRectToVisible:rect animated:NO];
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
 
-/*
-
- 
- 
- 2、
- 
- //改变小圆点的形状
- 
- PageControl.numberOfPages = 0
- 
- 
- 
- let  GH :CGFloat = self.view.frame.size.width - 150 - CGFloat(VC_ImageCount - 1 ) * 10
- 
- let  HG :CGFloat = CGFloat(VC_ImageCount)
- 
- 
- 
- for i in 0...(VC_ImageCount - 1)
- 
- {
- 
- btn = UIButton(type: UIButtonType.Custom)
- 
- btn.frame = CGRectMake(60 + CGFloat(i) * (GH / HG) + 30 , 20,20 , 4)
- 
- btn.setBackgroundImage(UIImage(named: "E44E2A3C-6383-4B55-AE79-EDAB85DD6A7A.png"), forState: UIControlState.Normal)
- 
- btn.setBackgroundImage(UIImage(named: "D9D3E0AA-67AD-4778-A8BC-A849B40CC25D.png"), forState: UIControlState.Selected)
- 
- btn.tag = i + 200;
- 
- //特殊处理
- 
- if i == 0 {
- 
- btn.selected = true
- 
- Join1(btn)
- 
- }
- 2、实现其方法
- 
- /***************************************************
-
-//自定义 pagecoler
-
-func Join1 (Btn: UIButton){
-    
-    TempBtn.selected = false
-    
-    TempBtn = Btn;
-    
-    TempBtn.selected = true
-    
-    scrollview.contentOffset = CGPointMake(CGFloat(TempBtn.tag - 200) * self.view.frame.size.width, 0)
-    
-    
-}
-*/
 
 @end

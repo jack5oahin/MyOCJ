@@ -28,7 +28,7 @@
     TabOneNavigationController *tabOneNC = [[TabOneNavigationController alloc] initWithRootViewController:tabOneTVC];
     
     tabOneTVC.tabBarItem.title = @"基础";
-    tabOneTVC.tabBarItem.image = [[UIImage imageNamed:@"Safari"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    tabOneTVC.tabBarItem.image = [[UIImage imageNamed:@"Neteasy"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     
     TwoViewController *vc2 = [[TwoViewController alloc] initWithNibName:@"TwoViewController" bundle:nil];
     //下面两行代码，必须写在这里，不能写在vc2的ViewDidLoad里，因为，处理tabbarController的item的时候，还没有开始加载vc2呢,当然不会加载item了。

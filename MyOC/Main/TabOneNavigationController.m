@@ -18,8 +18,8 @@
     [super viewDidLoad];
 
     
-    self.tabBarItem.title = @"基础";
-    self.tabBarItem.image = [[UIImage imageNamed:@"safari"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+//    self.tabBarItem.title = @"基础";
+//    self.tabBarItem.image = [[UIImage imageNamed:@"safari"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     
 }
 //-(UIViewController *)childViewControllerForStatusBarHidden

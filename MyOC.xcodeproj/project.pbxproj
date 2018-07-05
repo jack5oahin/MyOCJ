@@ -35,11 +35,11 @@
 		032AA95020EBC86C00AEC297 /* OCPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 032AA94E20EBC86C00AEC297 /* OCPageControl.m */; };
 		032AA95420EBCE4300AEC297 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 032AA95220EBCE4300AEC297 /* TestViewController.m */; };
 		032AA95520EBCE4300AEC297 /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 032AA95320EBCE4300AEC297 /* TestViewController.xib */; };
+		D5A07B7020EDB17C00D73818 /* Neteasy.png in Resources */ = {isa = PBXBuildFile; fileRef = D5A07B6F20EDB17C00D73818 /* Neteasy.png */; };
 		D5FFE19A20EC4B2000E1CCE7 /* Xcode.png in Resources */ = {isa = PBXBuildFile; fileRef = D5FFE19520EC4B1F00E1CCE7 /* Xcode.png */; };
 		D5FFE19B20EC4B2000E1CCE7 /* linkin.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D5FFE19620EC4B2000E1CCE7 /* linkin.jpeg */; };
 		D5FFE19D20EC4B2000E1CCE7 /* QQ.png in Resources */ = {isa = PBXBuildFile; fileRef = D5FFE19820EC4B2000E1CCE7 /* QQ.png */; };
 		D5FFE19E20EC4B2000E1CCE7 /* Chrome.png in Resources */ = {isa = PBXBuildFile; fileRef = D5FFE19920EC4B2000E1CCE7 /* Chrome.png */; };
-		D5FFE1A020EC4B8A00E1CCE7 /* Safari.png in Resources */ = {isa = PBXBuildFile; fileRef = D5FFE19F20EC4B8A00E1CCE7 /* Safari.png */; };
 		D5FFE1AA20EC559B00E1CCE7 /* ThreeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5FFE1A120EC559A00E1CCE7 /* ThreeViewController.xib */; };
 		D5FFE1AB20EC559B00E1CCE7 /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5FFE1A220EC559A00E1CCE7 /* TwoViewController.m */; };
 		D5FFE1AC20EC559B00E1CCE7 /* TwoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5FFE1A320EC559A00E1CCE7 /* TwoViewController.xib */; };
@@ -116,11 +116,11 @@
 		032AA95120EBCE4300AEC297 /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
 		032AA95220EBCE4300AEC297 /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		032AA95320EBCE4300AEC297 /* TestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
+		D5A07B6F20EDB17C00D73818 /* Neteasy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Neteasy.png; sourceTree = "<group>"; };
 		D5FFE19520EC4B1F00E1CCE7 /* Xcode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Xcode.png; sourceTree = "<group>"; };
 		D5FFE19620EC4B2000E1CCE7 /* linkin.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = linkin.jpeg; sourceTree = "<group>"; };
 		D5FFE19820EC4B2000E1CCE7 /* QQ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = QQ.png; sourceTree = "<group>"; };
 		D5FFE19920EC4B2000E1CCE7 /* Chrome.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chrome.png; sourceTree = "<group>"; };
-		D5FFE19F20EC4B8A00E1CCE7 /* Safari.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Safari.png; sourceTree = "<group>"; };
 		D5FFE1A120EC559A00E1CCE7 /* ThreeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThreeViewController.xib; sourceTree = "<group>"; };
 		D5FFE1A220EC559A00E1CCE7 /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
 		D5FFE1A320EC559A00E1CCE7 /* TwoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TwoViewController.xib; sourceTree = "<group>"; };
@@ -289,12 +289,12 @@
 		032AA8CE20EBAACA00AEC297 /* img */ = {
 			isa = PBXGroup;
 			children = (
+				D5A07B6F20EDB17C00D73818 /* Neteasy.png */,
 				D5FFE19920EC4B2000E1CCE7 /* Chrome.png */,
 				D5FFE19620EC4B2000E1CCE7 /* linkin.jpeg */,
 				D5FFE19820EC4B2000E1CCE7 /* QQ.png */,
 				D5FFE19520EC4B1F00E1CCE7 /* Xcode.png */,
 				032AA8B720EBA81000AEC297 /* cui.jpg */,
-				D5FFE19F20EC4B8A00E1CCE7 /* Safari.png */,
 			);
 			path = img;
 			sourceTree = "<group>";
@@ -406,8 +406,8 @@
 				D5FFE19B20EC4B2000E1CCE7 /* linkin.jpeg in Resources */,
 				D5FFE1AE20EC559B00E1CCE7 /* FourViewController.xib in Resources */,
 				032AA8C820EBA81000AEC297 /* cui.jpg in Resources */,
-				D5FFE1A020EC4B8A00E1CCE7 /* Safari.png in Resources */,
 				032AA8C320EBA81000AEC297 /* StatusBarOneViewController.xib in Resources */,
+				D5A07B7020EDB17C00D73818 /* Neteasy.png in Resources */,
 				032AA95520EBCE4300AEC297 /* TestViewController.xib in Resources */,
 				032AA87020EBA7C700AEC297 /* LaunchScreen.storyboard in Resources */,
 				D5FFE1AC20EC559B00E1CCE7 /* TwoViewController.xib in Resources */,
